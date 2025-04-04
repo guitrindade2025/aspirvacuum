@@ -4,6 +4,7 @@ import path from 'path';
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/aspirvacuum/', // Define o caminho base para GitHub Pages
   plugins: [
     react({
       babel: {
