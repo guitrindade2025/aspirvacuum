@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+import React from 'react';
+
+>>>>>>> 6ae9463449f4961cc2d1b58f602c4cea584717be
 const Destaques = () => {
   return (
     <div className="container mx-auto px-4 py-8">
@@ -7,4 +12,8 @@ const Destaques = () => {
   );
 };
 
+<<<<<<< HEAD
 export default Destaques;
+=======
+export default Destaques; 
+>>>>>>> 6ae9463449f4961cc2d1b58f602c4cea584717be

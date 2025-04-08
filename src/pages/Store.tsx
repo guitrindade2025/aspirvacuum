@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { useParams, useNavigate } from 'react-router-dom';
 import { FaFilter, FaSearch, FaPlus, FaCheck } from 'react-icons/fa';
+=======
+import React, { useState, useEffect } from 'react';
+import { motion } from 'framer-motion';
+import { useParams, useNavigate } from 'react-router-dom';
+import { FaShoppingCart, FaFilter, FaSearch, FaStar, FaInfoCircle, FaPlus, FaCheck } from 'react-icons/fa';
+>>>>>>> 6ae9463449f4961cc2d1b58f602c4cea584717be
 
 const Store = () => {
   const { categoria } = useParams();

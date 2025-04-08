@@ -1,7 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
+<<<<<<< HEAD
 import { FaTools, FaCheckCircle, FaPhoneAlt, FaClock, FaMapMarkerAlt, FaFilter, FaCogs, FaTruck } from 'react-icons/fa';
 import mapa from '../assets/mapa.jpg';
+=======
+import { FaTools, FaCheckCircle, FaPhoneAlt, FaClock, FaMapMarkerAlt, FaCalendarAlt, FaClipboardList, FaFilter, FaCogs, FaTruck, FaMap } from 'react-icons/fa';
+import mapa from '../assets/mapa.jpg';
+import headerImage from '../assets/maintenance.jpg';
+>>>>>>> 6ae9463449f4961cc2d1b58f602c4cea584717be
 
 const images = [
   {

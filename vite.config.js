@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react';
 import path from 'path';
 // https://vite.dev/config/
 export default defineConfig({
+<<<<<<< HEAD
     plugins: [
         react({
             babel: {
@@ -12,6 +13,9 @@ export default defineConfig({
             },
         }),
     ],
+=======
+    plugins: [react()],
+>>>>>>> 6ae9463449f4961cc2d1b58f602c4cea584717be
     resolve: {
         alias: {
             '@': path.resolve(__dirname, './src'),
@@ -20,6 +24,11 @@ export default defineConfig({
     server: {
         host: true,
         port: 5173,
+<<<<<<< HEAD
         strictPort: false,
     },
+=======
+        strictPort: false
+    }
+>>>>>>> 6ae9463449f4961cc2d1b58f602c4cea584717be
 });

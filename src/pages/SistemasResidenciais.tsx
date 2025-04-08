@@ -1,6 +1,10 @@
 import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
 import { FaBed, FaCouch, FaUtensils, FaCar, FaCalculator } from 'react-icons/fa';
+<<<<<<< HEAD
+=======
+import headerImage from '../assets/maintenance.jpg';
+>>>>>>> 6ae9463449f4961cc2d1b58f602c4cea584717be
 
 const SistemasResidenciais = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

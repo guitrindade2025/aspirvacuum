@@ -1,4 +1,8 @@
 import { motion } from 'framer-motion';
+<<<<<<< HEAD
+=======
+import { FaTools, FaClipboardCheck, FaCog, FaCheckCircle } from 'react-icons/fa';
+>>>>>>> 6ae9463449f4961cc2d1b58f602c4cea584717be
 import React, { useState } from 'react';
 
 const Instalacao = () => {

@@ -1,6 +1,10 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+<<<<<<< HEAD
 import { FaHome, FaBuilding, FaIndustry } from 'react-icons/fa';
+=======
+import { FaCheck, FaTools, FaHome, FaBuilding, FaIndustry } from 'react-icons/fa';
+>>>>>>> 6ae9463449f4961cc2d1b58f602c4cea584717be
 
 const MoreInfo = () => {
   return (
@@ -189,4 +193,8 @@ const MoreInfo = () => {
   );
 };
 
+<<<<<<< HEAD
 export default MoreInfo;
+=======
+export default MoreInfo; 
+>>>>>>> 6ae9463449f4961cc2d1b58f602c4cea584717be

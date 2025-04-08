@@ -1,6 +1,13 @@
+<<<<<<< HEAD
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { FaLeaf, FaHome, FaShieldAlt, FaStar, FaArrowRight } from 'react-icons/fa';
+=======
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
+import { FaLeaf, FaHome, FaShieldAlt, FaStar, FaArrowRight, FaCheck } from 'react-icons/fa';
+>>>>>>> 6ae9463449f4961cc2d1b58f602c4cea584717be
 
 const pageVariants = {
   initial: {

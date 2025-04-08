@@ -1,6 +1,34 @@
+<<<<<<< HEAD
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { FaAward, FaUsers, FaHandshake, FaChartLine } from 'react-icons/fa';
+=======
+import React, { useState, useEffect } from 'react';
+import { motion } from 'framer-motion';
+import { FaAward, FaUsers, FaHandshake, FaChartLine } from 'react-icons/fa';
+import supportImage from '@/assets/support.jpg';
+
+const pageVariants = {
+  initial: {
+    opacity: 0,
+    scale: 0.8,
+  },
+  in: {
+    opacity: 1,
+    scale: 1,
+  },
+  out: {
+    opacity: 0,
+    scale: 1.2,
+  },
+};
+
+const pageTransition = {
+  type: 'spring',
+  stiffness: 50,
+  damping: 20,
+};
+>>>>>>> 6ae9463449f4961cc2d1b58f602c4cea584717be
 
 const ImageWithFallback = () => {
   return (
@@ -189,4 +217,8 @@ const AboutUs = () => {
   );
 };
 
+<<<<<<< HEAD
 export default AboutUs;
+=======
+export default AboutUs; 
+>>>>>>> 6ae9463449f4961cc2d1b58f602c4cea584717be

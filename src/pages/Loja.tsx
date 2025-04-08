@@ -1,6 +1,9 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+<<<<<<< HEAD
 import { SearchIcon } from '@heroicons/react/solid'; // Adicionei a importação correta para SearchIcon.
+=======
+>>>>>>> 6ae9463449f4961cc2d1b58f602c4cea584717be
 
 const Loja = () => {
   return (
